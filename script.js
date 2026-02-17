@@ -19,7 +19,7 @@ function enviarWhatsApp() {
     `Observaciones: ${obs}`;
 
   const telefono = "543425840953"; // ← ACÁ VA EL NÚMERO DEL BAR
-  const url = `https://wa.me/${telefono}?text=${mensaje}`;
+  const url = `https://wa.me/${543425840953}?text=${mensaje}`;
 
   window.open(url, "_blank");
 }
