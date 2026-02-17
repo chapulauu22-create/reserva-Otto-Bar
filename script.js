@@ -18,7 +18,7 @@ function enviarWhatsApp() {
     `Horario: ${horario}%0A` +
     `Observaciones: ${obs}`;
 
-  const telefono = "54911XXXXXXXX"; // ← ACÁ VA EL NÚMERO DEL BAR
+  const telefono = "543425840953"; // ← ACÁ VA EL NÚMERO DEL BAR
   const url = `https://wa.me/${telefono}?text=${mensaje}`;
 
   window.open(url, "_blank");
