@@ -1,0 +1,29 @@
+  border: 1px solid #ccc;
+}
+
+textarea {
+  resize: none;
+  height: 60px;
+}
+
+button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 10px;
+  background: #1f3d34;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #162c25;
+}
+
+small {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 12px;
+}
